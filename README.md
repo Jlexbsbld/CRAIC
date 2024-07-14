@@ -1,6 +1,6 @@
 # CRAIC城市道路识别智能车
 
-1.CRAIC_DownMachine_Control_CODE
+1.CRAIC_DownMachine_Control_Code
 
 2.2024深蓝智能车下位机代码
 
