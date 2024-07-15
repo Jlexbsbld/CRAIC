@@ -152,7 +152,7 @@ void start_task(void *pvParameters)
 						 (TaskHandle_t* )&KeyTask_Handler);
 	 /* 创建任务 2 */
 	xTaskCreate((TaskFunction_t )lcd_task,
-						 (const char* )"l",
+						 (const char* )"lcd_task",
 						 (uint16_t )64,
 						 (void* )NULL,
 						 (UBaseType_t )1,
