@@ -19,11 +19,11 @@ pid speedpid = {40.0f,20.0f,0,0,0,0,0};
 
 void motor_init(void)
 {
-	set_pwm(&htim1,TIM_CHANNEL_1,10000,0); //10K,占空比为0 PA9
-	set_pwm(&htim1,TIM_CHANNEL_3,10000,0); //10K,占空比为0 PA11
-	set_pwm(&htim8,TIM_CHANNEL_1,10000,0); //10K,占空比为0 PC7
-	set_pwm(&htim8,TIM_CHANNEL_3,10000,0); //10K,占空比为0 PC9
-	set_pwm(&htim9,TIM_CHANNEL_1,10000,0); //10K,占空比为0 PE6
+	set_pwm(&htim1,TIM_CHANNEL_1,20000,0); //10K,占空比为0 PA9
+	set_pwm(&htim1,TIM_CHANNEL_3,20000,0); //10K,占空比为0 PA11
+	set_pwm(&htim8,TIM_CHANNEL_1,20000,0); //10K,占空比为0 PC7
+	set_pwm(&htim8,TIM_CHANNEL_3,20000,0); //10K,占空比为0 PC9
+	set_pwm(&htim9,TIM_CHANNEL_1,20000,0); //10K,占空比为0 PE6
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
 	HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_1);
