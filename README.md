@@ -14,7 +14,7 @@
 
 7.系统：FreeRTOS
 
-8.上位机jetson NANO
+8.上位机：jetson NANO
 
 # 整车图片
 
